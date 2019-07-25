@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav button{
+    margin-right: 10px;
+    background: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px black;
+    background: linear-gradient(to bottom right,#999999,#AAAAAA,#CCCCCC,#EEEEEE,#f4f4f4,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9
+}

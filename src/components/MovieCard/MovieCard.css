@@ -1,0 +1,8 @@
+.MovieCard img{
+    float: left;
+}
+
+.text1{
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 5px;
+}

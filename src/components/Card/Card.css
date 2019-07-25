@@ -1,0 +1,16 @@
+.tored:hover{
+    color:red
+}
+
+.tored{
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2px;
+}
+
+.scl{
+    transition: 1s;
+}
+
+.scl:hover{
+    transform:scale(1.05)
+}

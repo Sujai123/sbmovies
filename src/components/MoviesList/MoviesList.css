@@ -1,0 +1,46 @@
+.content{
+    border: 0.1rem solid black;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    background: linear-gradient(to bottom right,#999999,#AAAAAA,#CCCCCC,#EEEEEE,#f4f4f4,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+    width:60%
+}
+
+.scroll{
+    overflow: scroll;
+    border: 1px solid black;
+    height: 500px;
+    margin: 20px;
+}
+
+@media screen and (max-width:590px){
+    .content{
+        border: 0.1rem solid black;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 6rem;
+        background: linear-gradient(to bottom right,#999999,#AAAAAA,#CCCCCC,#EEEEEE,#f4f4f4,white);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        opacity: 0.8;
+        width:70%
+    }
+}
+
+@media screen and (max-width:590px){
+    .content{
+        border: 0.1rem solid black;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 6rem;
+        background: linear-gradient(to bottom right,#999999,#AAAAAA,#CCCCCC,#EEEEEE,#f4f4f4,white);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        opacity: 0.8;
+        width:90%
+    }
+}

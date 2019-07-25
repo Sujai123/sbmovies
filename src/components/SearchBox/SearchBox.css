@@ -1,0 +1,23 @@
+.text{
+    width: 30rem;
+}
+.font{
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:1050px){
+    .text{
+        width:20rem
+    }
+}
+
+@media screen and (max-width:720px){
+    .text{
+        width:10rem
+    }
+    .font{
+        font-family: 'Acme', sans-serif;
+        letter-spacing: 2px;
+    }
+}

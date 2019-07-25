@@ -1,0 +1,43 @@
+.align{
+    text-align: center
+}
+
+form{
+    background: linear-gradient(to bottom right,#999999,#AAAAAA,#CCCCCC,#EEEEEE,#f4f4f4,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7
+}
+
+.form{
+    width:30%;
+    margin-top:80px
+}
+
+@media screen and (max-width:800px){
+    .form{
+        width:40%;
+        margin-top:80px
+    }
+}
+
+@media screen and (max-width:600px){
+    .form{
+        width:50%;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .form{
+        width:70%;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .form{
+        width:90%;
+        margin-top: 80px;
+    }
+}
