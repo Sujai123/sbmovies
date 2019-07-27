@@ -4,7 +4,6 @@ import Navigation from './components/Navigation/Navigation'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import 'tachyons';
-import Lionking from './Lionking.mp4';
 import ReactPlayer from 'react-player'
 import './App.css'
 import Logo from './logo.png'
@@ -49,7 +48,6 @@ class App extends React.Component {
     messsage=<div><MoviesList /></div>
     return (
       <div>
-        <ReactPlayer url={Lionking} loop muted playing className="video" width='100%' height='100%' />
         <div className="title">
         <Tilt className="Tilt" options={{ max : 40 }} style={{ height: 250, width: 250 }} >
         <div className="Tilt-inner"> <img src={Logo} alt="logo" className="logo" title="SB Movies" /> </div>
